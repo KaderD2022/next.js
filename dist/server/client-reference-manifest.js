@@ -1221,9 +1221,9 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       },
-      "Navbar": {
+      "FixedPlugin": {
         "id": "(sc_client)/./src/components/index.ts",
-        "name": "Navbar",
+        "name": "FixedPlugin",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
         ],
@@ -1240,6 +1240,14 @@ self.__RSC_MANIFEST={
       "Layout": {
         "id": "(sc_client)/./src/components/index.ts",
         "name": "Layout",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "Navbar": {
+        "id": "(sc_client)/./src/components/index.ts",
+        "name": "Navbar",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
         ],
@@ -1264,14 +1272,6 @@ self.__RSC_MANIFEST={
       "SkillCard": {
         "id": "(sc_client)/./src/components/index.ts",
         "name": "SkillCard",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "FixedPlugin": {
-        "id": "(sc_client)/./src/components/index.ts",
-        "name": "FixedPlugin",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
         ],
@@ -3640,9 +3640,9 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\valen\\Downloads\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\src\\components\\index.ts#Navbar": {
+    "C:\\Users\\valen\\Downloads\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\src\\components\\index.ts#FixedPlugin": {
       "id": "(app-client)/./src/components/index.ts",
-      "name": "Navbar",
+      "name": "FixedPlugin",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
@@ -3659,6 +3659,14 @@ self.__RSC_MANIFEST={
     "C:\\Users\\valen\\Downloads\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\src\\components\\index.ts#Layout": {
       "id": "(app-client)/./src/components/index.ts",
       "name": "Layout",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\valen\\Downloads\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\src\\components\\index.ts#Navbar": {
+      "id": "(app-client)/./src/components/index.ts",
+      "name": "Navbar",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
@@ -3683,14 +3691,6 @@ self.__RSC_MANIFEST={
     "C:\\Users\\valen\\Downloads\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\src\\components\\index.ts#SkillCard": {
       "id": "(app-client)/./src/components/index.ts",
       "name": "SkillCard",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\valen\\Downloads\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\Next.js-Tailwind-CSS-Portfolio-Template-1.0.0\\src\\components\\index.ts#FixedPlugin": {
-      "id": "(app-client)/./src/components/index.ts",
-      "name": "FixedPlugin",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],

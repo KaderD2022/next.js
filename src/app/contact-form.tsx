@@ -7,12 +7,10 @@ import {
   Radio,
   Input,
   Textarea,
-  Button,
-  IconButton,
+  Button
 } from "@material-tailwind/react";
-import { EnvelopeIcon, PhoneIcon, TicketIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import { FaGithub } from "react-icons/fa";
-import { FaFilePdf } from "react-icons/fa";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 // Ajout LinkedIn SVG
@@ -119,8 +117,8 @@ export function ContactForm() {
                 </Typography>
               </div>
               <div className="flex mb-4 gap-5 items-center">
-                <FaFilePdf className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
+                {/* <FaFilePdf className="h-6 w-6 text-white" /> */}
+                {/* <Typography variant="h6" color="white" className="mb-2">
                   <a
                     href="/cv.pdf"
                     download
@@ -129,7 +127,7 @@ export function ContactForm() {
                   >
                     Télécharger mon CV (PDF)
                   </a>
-                </Typography>
+                </Typography> */}
               </div>
             </div>
             <div className="w-full mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5">
