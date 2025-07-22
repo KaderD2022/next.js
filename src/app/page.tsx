@@ -15,14 +15,22 @@ export default function Portfolio() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Clients />
-      <Skills />
-      <Projects />
-      <Resume />
-      <Testimonial />
-      <PopularClients />
-      <ContactForm />
+      <section id="acceuil">
+        <Hero />
+      </section>
+      <section id="mes-competences">
+        <Clients />
+        <Skills />
+      </section>
+      <section id="mes-projets">
+        <Projects />
+        <Resume />
+      </section>
+      <section id="service">
+        <Testimonial />
+        <PopularClients />
+        <ContactForm />
+      </section>
       <Footer />
     </>
   );

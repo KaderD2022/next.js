@@ -1,6 +1,5 @@
 import { Typography, Button } from "@material-tailwind/react";
 
-const LINKS = ["Acceuil", "A propos", "Blog", "Service"];
 const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
@@ -20,7 +19,7 @@ export function Footer() {
             .
             Distribuer par <a href="https://github.com/KaderD2022/" target="_blank">KaderDev</a>
           </Typography>
-          
+          {/* Menu supprimé */}
         </div>
       </div>
     </footer>

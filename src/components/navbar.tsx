@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import {
   Navbar as MTNavbar,
@@ -17,21 +15,7 @@ import {
   Bars3Icon,
 } from "@heroicons/react/24/solid";
 
-const NAV_MENU = [
-  {
-    name: "Page",
-    icon: RectangleStackIcon,
-  },
-  {
-    name: "Account",
-    icon: UserCircleIcon,
-  },
-  {
-    name: "Docs",
-    icon: CommandLineIcon,
-    href: "#",
-  },
-];
+const LINKS = ["Acceuil", "Mes Competences", "Mes Projets", "Service"];
 
 interface NavItemProps {
   children: React.ReactNode;
@@ -73,14 +57,21 @@ export function Navbar() {
         <Typography color="blue-gray" className="text-lg font-bold">
           KaderDev Portefolio
         </Typography>
-        {/* <ul className="ml-10 hidden items-center gap-8 lg:flex">
-          {NAV_MENU.map(({ name, icon: Icon, href }) => (
-            <NavItem key={name} href={href}>
-              <Icon className="h-5 w-5" />
-              {name}
-            </NavItem>
+        <ul className="ml-10 hidden items-center gap-8 lg:flex">
+          {LINKS.map((link) => (
+            <li key={link}>
+              <Typography
+                as="a"
+                href={`#${link.toLowerCase().replace(/\s/g, '-')}`}
+                variant="small"
+                className="font-normal text-gray-700 hover:text-gray-900 transition-colors"
+              >
+                {link}
+              </Typography>
+            </li>
           ))}
-        </ul> */}
+         
+        </ul>
 
         <IconButton
           variant="text"
@@ -97,21 +88,23 @@ export function Navbar() {
       </div>
       <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
-          {/* <ul className="flex flex-col gap-4">
-            {NAV_MENU.map(({ name, icon: Icon }) => (
-              <NavItem key={name}>
-                <Icon className="h-5 w-5" />
-                {name}
-              </NavItem>
+          <ul className="flex flex-col gap-4">
+            {LINKS.map((link) => (
+              <li key={link}>
+                <Typography
+                  as="a"
+                  href={`#${link.toLowerCase().replace(/\s/g, '-')}`}
+                  variant="small"
+                  className="font-normal text-gray-700 hover:text-gray-900 transition-colors"
+                >
+                  {link}
+                </Typography>
+              </li>
             ))}
-          </ul> */}
-          {/* <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Sign In</Button>
-            <a href="#">
-              <Button color="gray">blocks</Button>
-            </a>
-          </div> */}
-        </div>
+            
+          </ul>
+
+        </div> 
       </Collapse>
     </MTNavbar>
   );

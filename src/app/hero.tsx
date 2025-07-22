@@ -20,25 +20,11 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            Je suis DIARRASSOUBA ABDOUL KADER RAIS, une développeuse web passionnée basée en Cote d&#39;ivoire. Ici,
+            Je suis DIARRASSOUBA ABDOUL KADER RAIS, une développeur web passionnée basée en Cote d&#39;ivoire. Ici,
  vous aurez un aperçu de mon parcours dans le monde du développement web
 , où la créativité rencontre la fonctionnalité.
           </Typography>
-          <div className="grid">
-            <Typography
-              variant="small"
-              className="mb-2 text-gray-900 font-medium"
-            >
-              Votre email
-            </Typography>
-            <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
-              {/* @ts-ignore */}
-              <Input color="gray" label="Enter your email" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]">
-                exiger une offre
-              </Button>
-            </div>
-          </div>
+          
 
         </div>
         <Image
